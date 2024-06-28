@@ -1,0 +1,75 @@
+[
+    {
+        "Id": "sha256:d6d6bd3bf4ef14e946830d55684f29856a915e7677e7a948908490c5d7f57e30",
+        "RepoTags": [
+            "react-app:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2024-06-27T10:43:11.838740294+05:30",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Exposeds": {
+                "5000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NODE_VERSION=10.23.1",
+                "YARN_VERSION=1.22.5"
+            ],
+            "Cmd": [
+                "npm",
+                "run",
+                "dev"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/home/node/app",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 535740638,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/ng1056xhpjx9pcpw140iah9xh/diff:/var/lib/docker/overlay2/xyb3w2zx4ybuma6952ohz0bze/diff:/var/lib/docker/overlay2/r7422iliyvbd1j7yweqk82buf/diff:/var/lib/docker/overlay2/ce3f39f89a5fec7485c77f35f6aafc38701fd1c867db5cc87f33e632a35dcd97/diff:/var/lib/docker/overlay2/e9ceeea7e7a8dd84743fdf5d5dad8cf336d886e3262f9909f0edee00aa3ed225/diff:/var/lib/docker/overlay2/44b81e823e7189e0dd05dc9ef853a0cf13013d73261e5241701c7eb1f0470b64/diff:/var/lib/docker/overlay2/f033daecf05e536ba480f6e2a61c38be76a3e655e483f6589ade9f8d772602af/diff",
+                "MergedDir": "/var/lib/docker/overlay2/7j4oom9zxbvexmf1ucm4z5anl/merged",
+                "UpperDir": "/var/lib/docker/overlay2/7j4oom9zxbvexmf1ucm4z5anl/diff",
+                "WorkDir": "/var/lib/docker/overlay2/7j4oom9zxbvexmf1ucm4z5anl/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:89ae5c4ee501a09c879f5b58474003539ab3bb978a553af2a4a6a7de248b5740",
+                "sha256:ef8f7be57094a4dfe34e1020ed6b1273854228582ce1a3a73a1f5665b8a3c12f",
+                "sha256:592a873df9a0e757ede047e9fb875cd1e9a61bcfb7ec9c8eca3b52bee00c6ba2",
+                "sha256:ae157c135ea9644a6a4b5b34db9743fcc6f4b7585ab16c898a4f45ed6517c17e",
+                "sha256:94c00e0dfcae811b46a644cb1c48830bec6c98e72ac654c1ea4796d2d7ffa9a3",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                "sha256:af2dcc1a956e293b7b79b931b49ced4670e0fd1b2cddfb159c91397ec148f8c5",
+                "sha256:e89466e2ec64acc6d340e79a9516a93cf7c171a3a6842ed92a2452410770ba48"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2024-06-27T10:43:13.404541074+05:30"
+        }
+    }
+]
