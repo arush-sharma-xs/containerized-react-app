@@ -9,7 +9,7 @@ FROM alpine
 RUN mkdir /app
 WORKDIR /app
 COPY --from=builder /home/node/app .
-RUN apk add --update && apk add nodejs && apk add npm
+RUN apk add --update && apk add nodejs && apk add npm && rm -rf /var/cache/apk/*
 RUN npm run build && npm i -g serve
 EXPOSE 3000
 CMD [ "serve", "-s", "dist" ]
